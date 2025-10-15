@@ -60,7 +60,7 @@ psql -U garun -d restaurant_bot_with_payment -f db_backup/backup_1.sql
 Создайте файл `.env` на основе примера:
 ```env
 BOT_TOKEN=your_telegram_bot_token
-DATABASE_URL=postgresql://garun:origami@localhost/restaurant_bot_with_payment
+DATABASE_URL=postgresql://db_owner:password@localhost/db_name
 
 # Логирование
 LOG_LEVEL=INFO
